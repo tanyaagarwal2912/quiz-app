@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Scroll"
+    tools:context=".MainActivity"
+    android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text= "1. Which word does NOT belong with the others?"/>
+                <RadioGroup
+                    android:id="@+id/radio_group_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"
+                    android:orientation="vertical">
+                    <RadioButton android:id="@+id/radio_tulip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tulip"/>
+                    <RadioButton android:id="@+id/radio_rose"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rose" />
+                    <RadioButton android:id="@+id/radio_bud"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bud" />
+                    <RadioButton android:id="@+id/radio_daisy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/daisy" />
+                </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="2. Choose the word that is a necessary part of the word 'PAGES'."/>
+                <RadioGroup
+                    android:id="@+id/radio_group_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"
+                    android:orientation="vertical">
+                    <RadioButton android:id="@+id/radio_fiction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fiction" />
+                    <RadioButton android:id="@+id/radio_pages"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pages" />
+                    <RadioButton android:id="@+id/radio_learning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/learning" />
+                    <RadioButton android:id="@+id/radio_pictures"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pictures" />
+                </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="3. Find the correctly spelt words"/>
+                <CheckBox android:id="@+id/checkbox_android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"
+                    android:text="@string/android" />
+                <CheckBox android:id="@+id/checkbox_talent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"
+                    android:text="@string/talent" />
+                <CheckBox android:id="@+id/checkbox_confarmation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"
+                    android:text="@string/confarmation" />
+                <CheckBox android:id="@+id/checkbox_sunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"
+                    android:text= "@string/Sunday" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="4. Choose the word which best expresses the meaning of the word 'ALERT'"/>
+            <RadioGroup
+                android:id="@+id/radio_group_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:orientation="vertical">
+                <RadioButton android:id="@+id/radio_energetic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/energetic" />
+                <RadioButton android:id="@+id/radio_observant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/observant" />
+                <RadioButton android:id="@+id/radio_intelligent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/intelligent" />
+                <RadioButton android:id="@+id/radio_watchful"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/watchful" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="5. Write the word which is the exact OPPOSITE of the word 'Best'."/>
+                <EditText
+                    android:id="@+id/userResponse_AnswerFive"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:inputType="text"
+                    android:hint="@string/Answer"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/SUBMIT"
+                android:onClick="SubmitTest"
+                android:layout_marginBottom="20dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="ResetQuiz"
+                android:text="@string/Reset" />
+        </LinearLayout>
+    </ScrollView>

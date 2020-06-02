@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="Name">Name</string>
+    <string name="tulip">Tulip</string>
+    <string name="rose">Rose</string>
+    <string name="bud">Bud</string>
+    <string name="daisy">Daisy</string>
+    <string name="fiction">Fiction</string>
+    <string name="pages">Pages</string>
+    <string name="learning">Learning</string>
+    <string name="pictures">Pictures</string>
+    <string name="talent">Talent</string>
+    <string name="android">Android</string>
+    <string name="confarmation">Confarmation</string>
+    <string name="sanday">Sanday</string>
+    <string name="energetic">Energetic</string>
+    <string name="observant">Observant</string>
+    <string name="intelligent">Intelligent</string>
+    <string name="watchful">Watchful</string>
+    <string name="Answer">Answer</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="Marks">Marks</string>
+    <string name="sunday">Sunday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="ButtonReset">ButtonReset</string>
+    <string name="Reset">Reset</string>
+    <string name="AnswerFive" />
+    <string name="worst" />
+</resources>
